@@ -1,0 +1,273 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #9edada;
+  color: white;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* title image */
+.g-planet {
+  width: 90%;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.logo {
+  width: 50%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 100;
+  font-style: "Ubuntu";
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+/* download buttons */
+
+.apply-btn {
+  margin: 5% 3% 5% 0;
+  box-shadow: 1px 1px 4px gray;
+}
+
+/*  featues section */
+#features {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f1f1f1;
+}
+
+.mission-right {
+  padding-top: 6rem;
+}
+
+.mission-logo {
+  width: 60%;
+  padding: 1rem 0 0 2rem;
+}
+
+.mission {
+  color: rgb(88, 88, 88);
+}
+
+.mission-detail {
+  color: rgb(158, 158, 158);
+}
+
+/* projects */
+
+#projects {
+  padding-top: 3rem;
+  background-color: #9edada;
+}
+
+.project-right {
+  padding-top: 6rem;
+}
+
+.project-logo {
+  width: 60%;
+  padding: 1rem 0 0 2rem;
+}
+
+.project {
+  color: rgb(88, 88, 88);
+}
+
+.project-detail {
+  color: white;
+}
+
+hr {
+  border-color: grey;
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 10%;
+}
+
+/* Trew Projects  */
+
+#trew-project {
+  text-align: center;
+  background-color: #9edada;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.trew-h {
+  font-weight: 500;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.trew-p {
+  font-size: 2rem;
+}
+
+.tre {
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+  margin: 10px 200px 50px 200px;
+  padding-bottom: 20px;
+  background-color: #a7e4e4;
+}
+
+.carousel-control-prev {
+  background-color: #9edada;
+}
+
+.carousel-control-next {
+  background-color: #9edada;
+}
+
+/* internship */
+
+#internship {
+  background-color: #f1f1f1;
+}
+
+/* contact */
+
+#contact {
+  text-align: center;
+  background-color: #9edada;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.get-in-touch {
+  padding: 0 100px 0 100px;
+  margin-top: 2rem;
+}
+
+.get-quote {
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  margin: 10px 200px 50px 200px;
+  padding: 50px 50px 10px 50px;
+  background-color: rgba(144, 255, 194, 0.884);
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  left: 20%;
+  bottom: 100%;
+  border-radius: 6px;
+  margin-right: 20%;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 4px 4px 8px grey;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  left: 20%;
+  top: 100%;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgb(73, 73, 73);
+}
+
+.fa-color {
+  padding: 20px;
+  color: rgba(245, 245, 245, 0.842);
+}
+
+.fa-color:hover {
+  padding: 20px;
+  color: white;
+}
+
+.bt {
+  color: black;
+  text-decoration: none;
+}
+
+.bt:hover {
+  color: white;
+  text-decoration: none;
+}
