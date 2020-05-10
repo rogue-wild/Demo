@@ -3,7 +3,10 @@ body {
 }
 
 #title {
-  background-color: #9edada;
+  background: url(blue.JPG);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
   color: white;
 }
 
@@ -18,11 +21,9 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
 }
-
 .container-fluid {
   padding: 3% 15%;
 }
-
 /* title image */
 .g-planet {
   width: 90%;
@@ -32,7 +33,9 @@ h2 {
 
 /* navbar */
 .navbar {
-  padding: 0 0 4.5rem 0;
+  padding: 0 0 0 0;
+  margin-top: -20px;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -64,13 +67,13 @@ h2 {
 
 /*  featues section */
 #features {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #f1f1f1;
 }
 
 .mission-right {
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 
 .mission-logo {
@@ -83,18 +86,19 @@ h2 {
 }
 
 .mission-detail {
+  font-size: 1rem;
   color: rgb(158, 158, 158);
 }
 
 /* projects */
 
 #projects {
-  padding-top: 3rem;
+  padding-top: 2rem;
   background-color: #9edada;
 }
 
 .project-right {
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 
 .project-logo {
@@ -107,24 +111,18 @@ h2 {
 }
 
 .project-detail {
+  font-size: 1rem;
   color: white;
-}
-
-hr {
-  border-color: grey;
-  border-style: dotted none none;
-  border-width: 7px;
-  width: 10%;
 }
 
 /* Trew Projects  */
 
 #trew-project {
   text-align: center;
-  background-color: #9edada;
+  background: url(birdi.JPG);
   color: white;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .trew-h {
@@ -143,15 +141,7 @@ hr {
   box-shadow: 0 0 10px #000000;
   margin: 10px 200px 50px 200px;
   padding-bottom: 20px;
-  background-color: #a7e4e4;
-}
-
-.carousel-control-prev {
-  background-color: #9edada;
-}
-
-.carousel-control-next {
-  background-color: #9edada;
+  background-color: #80c2adad;
 }
 
 /* internship */
@@ -164,7 +154,7 @@ hr {
 
 #contact {
   text-align: center;
-  background-color: #9edada;
+  background: url(redd.JPG);
   color: white;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -181,7 +171,7 @@ hr {
   box-shadow: inset 0 0 10px #000000;
   margin: 10px 200px 50px 200px;
   padding: 50px 50px 10px 50px;
-  background-color: rgba(144, 255, 194, 0.884);
+  background-color: rgba(137, 255, 157, 0.452);
 }
 
 /* Popup container */
